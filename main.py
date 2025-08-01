@@ -13,3 +13,4 @@ def read_item(item_id: int, q: str = None, p: str = None):
 @app.post("/items/")
 def create_item(item: dict):
     return {"item": item}
+
